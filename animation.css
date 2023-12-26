@@ -1,0 +1,398 @@
+.btn_ul {
+    position: fixed;
+    right: 50px;
+    top: 0;
+    display: flex;
+    gap: 10px;
+    z-index: 9;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 60px;
+    color: #fff;
+    font-weight: 900;
+    animation-name: btn;
+    animation-direction: alternate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-size: cover;
+}
+
+.about_btn {
+    animation-delay: 0.1s;
+}
+
+.skill_btn {
+    animation-delay: 0.4s;
+}
+
+.project_btn {
+    animation-delay: 0.7s;
+}
+
+.contact_btn {
+    animation-delay: 1s;
+}
+
+@keyframes btn {
+    0% {transform: scale(1);}
+    20% {transform: scale(1.1);}
+    40% {transform: scale(1);}
+    60% {transform: scale(1.1);}
+    80% {transform: scale(1);}
+    100% { transform: scale(1.1);}
+}
+
+.main_font{
+    animation-name: font;
+    animation-duration:5s;
+}
+@keyframes font {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.pol{
+    animation: pol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.pol1{
+    animation: pol1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.j{animation-delay: 0.2s;}
+.u1{animation-delay:0.4s;}
+.n{animation-delay: 0.6s;}
+.h{animation-delay: 0.8s;}
+.y{animation-delay: 1s;}
+.u2{animation-delay:1.2s;}
+.c{animation-delay: 1.4s;}
+.k{animation-delay: 1.6s;}
+.p{animation-delay: 1.8s;}
+.o1{animation-delay: 2s;}
+.r{animation-delay: 2.2s;}
+.t{animation-delay: 2.4s;}
+.f{animation-delay: 2.6s;}
+.o2{animation-delay: 2.8s;}
+.l{animation-delay: 3.0s;}
+.i{animation-delay: 3.2s;}
+.o3{animation-delay: 3.4s;}
+
+@keyframes pol {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+}
+@keyframes pol1 {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(20px);}
+}
+
+
+.stic{
+    width: 50px;
+    height:500px;
+    background-color: #105859;
+    animation-name: stic;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes stic {
+    0%{height: 0;}
+    100%{height: 500px;}
+}
+.click{
+    width: 150px;
+    height: 150px;
+    background: url(../img/click1.png) center / cover;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: rotate(250deg) ;
+    z-index: 9;
+    animation-name: click;
+    animation-direction: alternate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes click {
+    0%{transform:rotate(250deg) translate(10px,10px);}
+    100%{transform:rotate(250deg) translate(0);}
+}
+.prebox{
+    animation: prebox;
+    animation-direction: alternate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+@keyframes prebox {
+    0%{transform:rotate(-5deg) }
+    100%{transform:rotate(5deg)}
+}
+
+.cookie{
+    background: url(../img/쿠키.png) center /cover;
+    width: 70px;
+    height: 100px;    
+    animation: cookie;
+    animation-direction:alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.cookie1 { position: absolute;
+    bottom: 5%; left:30%;animation-delay: 0.5s; }
+.cookie2 { position: absolute;
+    bottom: 5%;left:35%; }
+.cookie3{ position: absolute;
+    bottom: 5%; left:40%;animation-delay: 0.5s; }
+.cookie4 { position: absolute;
+    bottom: 5%;left:45%; }
+
+@keyframes cookie {
+    0%{transform:translate(0,0)}
+    100%{transform:translate(0px,-50px)}
+    
+}
+
+
+.star{
+    width:1px;
+    height:1px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    animation-name: star;
+    animation-direction: alternate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+.star1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.star2{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.star3{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.star3{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+.star4{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.star5{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.star6{
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
+.star7{
+    position: absolute;
+    top: 10%;
+    left:24%;
+}
+.star8{
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+.star9{
+    position: absolute;
+    top: 10%;
+    left: 47%;
+}
+.star10{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.star11{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+}
+.star12{
+    position: absolute;
+    top: 15%;
+    left: 36%;
+}
+.star13{
+    position: absolute;
+    top:15%;
+    left: 24%;
+}
+.star14{
+    position: absolute;
+    top: 15%;
+    left: 56%;
+}
+.star15{
+    position: absolute;
+    top:15%;
+    left: 58%;
+}
+.star16{
+    position: absolute;
+    top:20%;
+    left: 12%;
+}
+.star17{
+    position: absolute;
+    top:20%;
+    left: 23%;
+}
+.star18{
+    position: absolute;
+    top:20%;
+    left: 35%;
+}
+.star19{
+    position: absolute;
+    top:20%;
+    left: 23%;
+}
+.star20{
+    position: absolute;
+    top: 25%;
+    left: 32%;
+}
+.star21{
+    position: absolute;
+    top: 25%;
+    left: 41%;
+}
+.star22{
+    position: absolute;
+    top: 25%;
+    left: 17%;
+}
+.star23{
+    position: absolute;
+    top: 25%;
+    left: 22%;
+}
+.star24{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+.star25{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.star26{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.star27{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.star28{
+    position: absolute;
+    top:30%;
+    left: 40%;
+}
+.star29{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.star30{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.star31{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+.star32{
+    position: absolute;
+    top: 2%;
+    left: 30%;
+}
+.star33{
+    position: absolute;
+    top: 8%;
+    left: 23%;
+}
+.star34{
+    position: absolute;
+    top: 14%;
+    left: 43%;
+}
+.star35{
+    position: absolute;
+    top: 33%;
+    left: 43%;
+}
+.star36{
+    position: absolute;
+    top:12%;
+    left: 31%;
+}
+.star37{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+.star38{
+    position: absolute;
+    top: 2%;
+    left: 31%;
+}
+.star39{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+.star40{
+    position: absolute;
+    top: 2%;
+    left: 13%;
+}
+
+@keyframes star {
+    0%{transform:scale(1); }
+    100%{transform: scale(2); box-shadow: 0px 0px 2px 1px #f7f7f7;}
+}
+
+.snowman div:nth-child(1){
+   animation-name: snowman;
+   animation-direction: alternate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes snowman {
+    0%{transform:rotate(10deg); transform-origin: bottom;}
+    100%{transform:rotate(-10deg); transform-origin: bottom;}
+}
