@@ -5,16 +5,16 @@
 }
 
 @font-face {
-    font-family: 'DNFBitBitv2';
+    font-family: 'KNUTRUTHTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/KNUTRUTHTTF.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    src: url('//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype');
 }
-
 body {
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: 'KNUTRUTHTTF';
 }
 
 #wrap {
@@ -71,7 +71,7 @@ p {
     height: 100px;
     padding: 50px 0;
     font-size: 22px;
-    font-weight: 900;
+   
     line-height: 50px;
     transition: all 1s;
 }
@@ -582,7 +582,7 @@ p {
 
 .con1_img {
     background: url(../img/email.png) center / cover;
-    margin: 70px auto;
+    margin: 70px auto 0;
     text-align: center;
     width: 150px;
     height: 150px;
@@ -590,20 +590,22 @@ p {
 
 .con2_img {
     background: url(../img/kkao.png) center / cover;
-    margin: 70px auto;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-}
-
-.con3_img {
-    background: url(../img/phone.png) center / cover;
     margin: 70px auto 0;
     text-align: center;
     width: 150px;
     height: 150px;
 }
 
+.con3_img {
+    background: url(../img/github.png) center / cover;
+    margin: 70px auto 0;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.con1_img~span,
+.con2_img~span,
 .con3_img~span {
     font-size: 20px;
     font-weight: 900;
