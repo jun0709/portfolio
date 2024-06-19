@@ -14,16 +14,6 @@ $(document).ready(function(){
         s_move($(href).offset().top) 
     })
     
-    $("dong0").hover(function(){
-        $('rotate1').css("transform","rotate(450deg)");  
-    },function(){
-        $('rotate1').css("transform","rotate(0deg)");  
-    })
-
-    // $('.sec_pre_box').click(function(){
-    //     $('.sec2_box').slideToggle(500,'linear' );
-    //   });
-
     $('.sec_pre_box1').click(function(){
         $('.sec_pre_box1').removeClass('display_block').addClass('display_none');
         $('.sec_pre_box2').addClass('display_block').removeClass('display_none');
@@ -37,30 +27,21 @@ $(document).ready(function(){
         $('.click').addClass('display_block').removeClass('display_none');
     })
 
+ 
+    $(".open").click(function(){
+        $(this).closest(".sec3_project").find(".popup").show();
+    })
+    $(".close_btn").click(function(){
+        $(this).closest(".sec3_project").find(".popup").hide();
+    })
+   
 
-
-
-            
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView:4,
-    spaceBetween: 30,
-
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-        delay: 2000, 
-    },
-    speed: 3000,
-    loop: true,
-    direction: 'horizontal',
-    effect: 'cube'
-});
+    $(document).mouseup(function (e){
+        if($(".popup").has(e.target).length === 0){
+            $(".popup").hide();
+        }
+    });
+        
 
 
 $(window).scroll(function(){
