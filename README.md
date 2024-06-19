@@ -23,7 +23,7 @@
 
 
 - ## SKILL 
-![JunHyuck3](https://github.com/jun0709/portfolio/assets/146051592/44f2c8b8-e6b8-41df-bf28-2778bfa85c88)
+![JunHyuck3](https://github.com/jun0709/portfolio/assets/146051592/e03146c8-7b27-4743-aeb8-e56669fcc4ff)
 
 - ## DEMO 
 ![JunHyuck4](https://github.com/jun0709/portfolio/assets/146051592/ee73d371-ce0e-418b-b62f-0f72d91cd6f2)
