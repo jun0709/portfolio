@@ -26,12 +26,11 @@
 ![JunHyuck3](https://github.com/jun0709/portfolio/assets/146051592/e03146c8-7b27-4743-aeb8-e56669fcc4ff)
 
 - ## DEMO 
-![JunHyuck4](https://github.com/jun0709/portfolio/assets/146051592/ee73d371-ce0e-418b-b62f-0f72d91cd6f2)
-![JunHyuck5](https://github.com/jun0709/portfolio/assets/146051592/2979fd2d-3f89-4403-9f85-8f621beb3398)
+![JunHyuck4](https://github.com/jun0709/portfolio/assets/146051592/0b89498d-1dc4-4b29-be32-387ba621c63e)
 
 - ## CONTACT 
 
-![JunHyuck6](https://github.com/jun0709/portfolio/assets/146051592/141e9695-5706-4a2a-9973-f78e65683902)
+![JunHyuck5](https://github.com/jun0709/portfolio/assets/146051592/141e9695-5706-4a2a-9973-f78e65683902)
 
 
 
